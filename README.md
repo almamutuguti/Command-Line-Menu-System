@@ -152,5 +152,5 @@ Before you consider the project complete, ensure:
 
 ## To access my repository
 git clone https://github.com/almamutuguti/Command-Line-Menu-System.git
-0600000000000
+
 
