@@ -1,4 +1,4 @@
-# Project: Command-Line Menu System
+# Project: Command-Line Menu System by Alma Wanjiru
 
 ## Objective
 
@@ -148,3 +148,9 @@ Before you consider the project complete, ensure:
 - The program handles invalid input properly.
 - Your code is structured clearly using functions.
 - The loop only ends when "Exit" is selected.
+
+
+## To access my repository
+git clone https://github.com/almamutuguti/Command-Line-Menu-System.git
+0600000000000
+

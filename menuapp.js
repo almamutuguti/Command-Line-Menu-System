@@ -2,10 +2,13 @@ import promptSync from "prompt-sync";
 
 const prompt = promptSync();
 
+// brief description
+console.log("This is a command-line application in JavaScript that presents users with a menu of options.The user interacts by entering a number corresponding to an action. The application continues running until the user chooses to exit.");
+
 //function for each action
 function greetings() {
     const fname = prompt(`What's your name?`);
-    console.log(`Hello ${fname}!It's a pleasure to have you!`);
+    console.log(`Hello ${fname}! It's a pleasure to have you!`);
 }
 
 function joke() {
@@ -38,7 +41,7 @@ function evenOrOdd() {
 }
 
 function squareOfNumber() {
-    const number2 = parseInt(prompt(`Enter a number: `));
+    const square = parseInt(prompt(`Enter a number: `));
     if (isNaN(number2)) {
         console.log(`Invalid input`);
 
@@ -67,19 +70,19 @@ function temperatureConversion() {
         console.log(`Invalid Input`);
     }else {
         const fahrenheit = (celsius * 9) / 5 + 32;
-        console.log(`${celsius} degrees celcius is ${fahrenheit.toFixed(2)}Kelvin.`);
+        console.log(`${celsius} degrees celcius is ${fahrenheit.toFixed(2)}°F.`);
     }
 }
 
 function countdownFromANumber() {
     const number3 = parseInt(prompt(`Count down from what number?`));
-    if (isNaN(celsius)) {
+    if (isNaN(number3)) {
         console.log(`Invalid Input`);
 
     }else {
         let countdown = ``;
         while (number3 >= 0) {
-            countdown = countdown + number3;
+            countdown = countdown + number3 + " ";
             number3--;
             }
 
@@ -150,7 +153,7 @@ function menu() {
                 break;
             
             default:
-                console.log(`Invalid Input.PLease enter a number between 1-10.`);
+                console.log(`Invalid Input. PLease enter a number between 1-10.`);
         }
     }
 }
